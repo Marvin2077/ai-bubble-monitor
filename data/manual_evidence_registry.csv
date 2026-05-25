@@ -1,0 +1,3 @@
+date,indicator_id,value,source_url,notes,confidence,input_type
+2026-04,NASDAQ_DRAWDOWN,9,https://example.com/nasdaq,Public market drawdown snapshot,0.8,observed
+2026-04,CHINA_MODEL_PRICE_COMPETITION_SCORE,58,https://example.com/china,Analyst judgment from public reports,0.6,manual

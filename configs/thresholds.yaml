@@ -1,0 +1,16 @@
+NVDA_DC_REVENUE_YOY: {direction: lower_is_riskier, low_risk: 80, medium: 60, high_risk: 40}
+NVDA_GROSS_MARGIN: {direction: lower_is_riskier, low_risk: 75, medium: 65, high_risk: 55}
+NVDA_INVENTORY_TO_REVENUE: {direction: higher_is_riskier, low: 0.15, medium: 0.25, high: 0.35}
+COREWEAVE_REVENUE_GROWTH: {direction: lower_is_riskier, low_risk: 70, medium: 45, high_risk: 20}
+COREWEAVE_INTEREST_EXPENSE_TO_REVENUE: {direction: higher_is_riskier, low: 0.1, medium: 0.2, high: 0.35}
+GPU_CLOUD_CREDIT_SPREAD_PROXY: {direction: higher_is_riskier, low: 200, medium: 400, high: 700}
+HYPERSCALER_CAPEX_YOY: {direction: lower_after_peak_is_riskier, low_risk: 30, medium: 15, high_risk: 0}
+HYPERSCALER_CAPEX_TO_REVENUE: {direction: higher_is_riskier, low: 0.1, medium: 0.18, high: 0.25}
+GPU_RENTAL_PRICE_INDEX: {direction: lower_is_riskier, low_risk: 105, medium: 95, high_risk: 80}
+MODEL_API_PRICE_INDEX: {direction: lower_is_riskier, low_risk: 105, medium: 90, high_risk: 70}
+US_ELECTRICITY_PRICE_INDEX: {direction: higher_is_riskier, low: 95, medium: 110, high: 125}
+DATA_CENTER_GRID_DELAY: {direction: higher_is_riskier, low: 6, medium: 12, high: 18}
+CHINA_AI_CHIP_PROGRESS_SCORE: {direction: higher_is_riskier, low: 30, medium: 60, high: 80}
+CHINA_MODEL_PRICE_COMPETITION_SCORE: {direction: higher_is_riskier, low: 30, medium: 60, high: 80}
+US_HIGH_YIELD_SPREAD: {direction: higher_is_riskier, low: 300, medium: 450, high: 650}
+NASDAQ_DRAWDOWN: {direction: higher_is_riskier, low: 5, medium: 12, high: 20}
