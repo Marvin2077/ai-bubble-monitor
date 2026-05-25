@@ -1,0 +1,17 @@
+date,indicator_id,value,source_url,notes,confidence,input_type
+2026-03,NVDA_DC_REVENUE_YOY,92,https://example.com,nvda growth,0.8,manual
+2026-03,NVDA_GROSS_MARGIN,73,https://example.com,gross margin,0.8,manual
+2026-03,NVDA_INVENTORY_TO_REVENUE,0.22,https://example.com,inventory ratio,0.8,manual
+2026-03,COREWEAVE_REVENUE_GROWTH,65,https://example.com,rev growth,0.7,manual
+2026-03,COREWEAVE_INTEREST_EXPENSE_TO_REVENUE,0.18,https://example.com,interest burden,0.7,manual
+2026-03,GPU_CLOUD_CREDIT_SPREAD_PROXY,420,https://example.com,credit proxy,0.7,manual
+2026-03,HYPERSCALER_CAPEX_YOY,25,https://example.com,capex yoy,0.8,manual
+2026-03,HYPERSCALER_CAPEX_TO_REVENUE,0.16,https://example.com,capex ratio,0.8,manual
+2026-03,GPU_RENTAL_PRICE_INDEX,98,https://example.com,price index,0.6,manual
+2026-03,MODEL_API_PRICE_INDEX,85,https://example.com,api price index,0.6,manual
+2026-03,US_ELECTRICITY_PRICE_INDEX,112,https://example.com,power index,0.6,manual
+2026-03,DATA_CENTER_GRID_DELAY,11,https://example.com,delay,0.6,manual
+2026-03,CHINA_AI_CHIP_PROGRESS_SCORE,58,https://example.com,manual score,0.5,manual
+2026-03,CHINA_MODEL_PRICE_COMPETITION_SCORE,62,https://example.com,manual score,0.5,manual
+2026-03,US_HIGH_YIELD_SPREAD,430,https://example.com,hy spread,0.8,manual
+2026-03,NASDAQ_DRAWDOWN,14,https://example.com,drawdown,0.8,manual

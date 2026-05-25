@@ -1,0 +1,7 @@
+gpu_cycle: 0.20
+ai_cloud_financing: 0.20
+hyperscaler_capex: 0.15
+compute_price_pressure: 0.15
+power_constraint: 0.10
+china_substitution: 0.10
+macro_credit: 0.10
