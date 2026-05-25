@@ -1,0 +1,160 @@
+- id: NVDA_DC_REVENUE_YOY
+  name: NVIDIA data center revenue YoY
+  category: gpu_cycle
+  unit: percent
+  source_type: manual
+  source_url: null
+  direction: lower_is_riskier
+  weight: 0.34
+  description: NVIDIA data center revenue growth YoY.
+  manual_required: true
+- id: NVDA_GROSS_MARGIN
+  name: NVIDIA gross margin
+  category: gpu_cycle
+  unit: percent
+  source_type: manual
+  source_url: null
+  direction: lower_is_riskier
+  weight: 0.33
+  description: Gross margin pressure proxy.
+  manual_required: true
+- id: NVDA_INVENTORY_TO_REVENUE
+  name: NVIDIA inventory to revenue
+  category: gpu_cycle
+  unit: ratio
+  source_type: manual
+  source_url: null
+  direction: higher_is_riskier
+  weight: 0.33
+  description: Inventory build-up risk.
+  manual_required: true
+- id: COREWEAVE_REVENUE_GROWTH
+  name: CoreWeave revenue growth
+  category: ai_cloud_financing
+  unit: percent
+  source_type: manual
+  source_url: null
+  direction: lower_is_riskier
+  weight: 0.34
+  description: Revenue growth deceleration risk.
+  manual_required: true
+- id: COREWEAVE_INTEREST_EXPENSE_TO_REVENUE
+  name: CoreWeave interest expense to revenue
+  category: ai_cloud_financing
+  unit: ratio
+  source_type: manual
+  source_url: null
+  direction: higher_is_riskier
+  weight: 0.33
+  description: Financing strain proxy.
+  manual_required: true
+- id: GPU_CLOUD_CREDIT_SPREAD_PROXY
+  name: GPU cloud credit spread proxy
+  category: ai_cloud_financing
+  unit: basis_points
+  source_type: manual
+  source_url: null
+  direction: higher_is_riskier
+  weight: 0.33
+  description: Credit stress proxy.
+  manual_required: true
+- id: HYPERSCALER_CAPEX_YOY
+  name: hyperscaler capex YoY
+  category: hyperscaler_capex
+  unit: percent
+  source_type: manual
+  source_url: null
+  direction: lower_after_peak_is_riskier
+  weight: 0.5
+  description: Capex growth post-peak deceleration.
+  manual_required: true
+- id: HYPERSCALER_CAPEX_TO_REVENUE
+  name: hyperscaler capex to revenue
+  category: hyperscaler_capex
+  unit: ratio
+  source_type: manual
+  source_url: null
+  direction: higher_is_riskier
+  weight: 0.5
+  description: Capex burden indicator.
+  manual_required: true
+- id: GPU_RENTAL_PRICE_INDEX
+  name: GPU rental price index
+  category: compute_price_pressure
+  unit: index
+  source_type: manual
+  source_url: null
+  direction: lower_is_riskier
+  weight: 0.5
+  description: GPU rental market price pressure.
+  manual_required: true
+- id: MODEL_API_PRICE_INDEX
+  name: frontier model API price index
+  category: compute_price_pressure
+  unit: index
+  source_type: manual
+  source_url: null
+  direction: lower_is_riskier
+  weight: 0.5
+  description: API pricing pressure proxy.
+  manual_required: true
+- id: US_ELECTRICITY_PRICE_INDEX
+  name: U.S. electricity price index
+  category: power_constraint
+  unit: index
+  source_type: manual
+  source_url: null
+  direction: higher_is_riskier
+  weight: 0.5
+  description: Power cost pressure.
+  manual_required: true
+- id: DATA_CENTER_GRID_DELAY
+  name: data center grid connection delay
+  category: power_constraint
+  unit: months
+  source_type: manual
+  source_url: null
+  direction: higher_is_riskier
+  weight: 0.5
+  description: Grid bottleneck indicator.
+  manual_required: true
+- id: CHINA_AI_CHIP_PROGRESS_SCORE
+  name: China AI chip progress score
+  category: china_substitution
+  unit: score
+  source_type: manual
+  source_url: null
+  direction: higher_is_riskier
+  weight: 0.5
+  description: China substitution progress risk score.
+  manual_required: true
+- id: CHINA_MODEL_PRICE_COMPETITION_SCORE
+  name: China model price competition score
+  category: china_substitution
+  unit: score
+  source_type: manual
+  source_url: null
+  direction: higher_is_riskier
+  weight: 0.5
+  description: China model price competition score.
+  manual_required: true
+- id: US_HIGH_YIELD_SPREAD
+  name: U.S. high yield credit spread
+  category: macro_credit
+  unit: basis_points
+  source_type: manual
+  source_url: null
+  direction: higher_is_riskier
+  weight: 0.5
+  description: Macro credit stress.
+  manual_required: true
+- id: NASDAQ_DRAWDOWN
+  name: NASDAQ drawdown from 52-week high
+  category: macro_credit
+  unit: percent
+  source_type: manual
+  source_url: null
+  direction: higher_is_riskier
+  weight: 0.5
+  description: Equity risk-off proxy.
+  manual_required: true
